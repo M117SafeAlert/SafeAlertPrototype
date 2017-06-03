@@ -1,0 +1,132 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorBackground"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.etake.safealert.Options">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="320px"
+        android:layout_height="455px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@mipmap/rape"
+        android:text="Rape"
+        android:textColor="#ffff000d" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="320px"
+        android:layout_height="455px"
+        android:background="@mipmap/shooting"
+        android:text="Shooting"
+        android:textColor="#ffff000d"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="320px"
+        android:layout_height="455px"
+        android:background="@mipmap/robbery"
+        android:text="Robbery"
+        android:textColor="#ffff000d"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="320px"
+        android:layout_height="455px"
+        android:background="@mipmap/kidnap"
+        android:text="Kidnapping"
+        android:textColor="#ffff000d"
+        android:layout_below="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="320px"
+        android:layout_height="455px"
+        android:background="@mipmap/fire"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2"
+        android:layout_alignTop="@+id/button4"
+        android:text="Fire" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="320px"
+        android:layout_height="455px"
+        android:background="@mipmap/stalker"
+        android:layout_alignBottom="@+id/button5"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="Stalker"
+        android:textColor="#ffff000d"/>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="320px"
+        android:layout_height="455px"
+        android:background="@mipmap/accident"
+        android:text="Accident"
+        android:textColor="#ffff000d"
+        android:layout_below="@+id/button4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="320px"
+        android:layout_height="455px"
+        android:background="@mipmap/suicide"
+        android:layout_alignBottom="@+id/button7"
+        android:layout_alignLeft="@+id/button5"
+        android:layout_alignStart="@+id/button5"
+        android:text="Suicide"
+        android:textColor="#ffff000d"/>
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="320px"
+        android:layout_height="455px"
+        android:background="@mipmap/other"
+        android:layout_alignLeft="@+id/button6"
+        android:layout_alignStart="@+id/button6"
+        android:layout_alignTop="@+id/button8"
+        android:text="Other"
+        android:textColor="#ffff000d"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        app:srcCompat="@android:drawable/ic_dialog_map"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <!--<TextView
+        android:id="@+id/title"
+        android:layout_width="500dp"
+        android:layout_height= "40dp"
+        android:text="SafeAlert"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffff000d"/>-->
+
+
+
+</RelativeLayout>

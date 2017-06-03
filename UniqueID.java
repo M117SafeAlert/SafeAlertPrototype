@@ -1,0 +1,19 @@
+package com.example.etake.safealert;
+
+import android.content.Context;
+
+import java.util.UUID;
+
+
+public class UniqueID {
+    public static String generateUniqueUserId(Context ctx) {
+
+        String existing_user = ctx.getSharedPreferences("PREFS", 0).getString("user_id", null);
+        if (existing_user != null) {
+            return existing_user;
+        }
+        String uniqueID = UUID.randomUUID().toString();
+        ctx.getSharedPreferences("PREFS", 0).edit().putString("user_id", uniqueID).commit();
+        return uniqueID;
+    }
+}
